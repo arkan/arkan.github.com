@@ -2,7 +2,7 @@
   <i class="icon icon-list btn-mobile-menu__icon"></i>
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
-  
+
 <header class="panel-cover" style="background-image: url({{ "images/cover.jpg" | prepend: site.baseurl }})">
   <div class="panel-main">
 
@@ -26,7 +26,7 @@
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
-          
+
             {% if site.author.twitter_username %}
               <!-- Twitter -->
               <li class="navigation__item">
@@ -70,10 +70,9 @@
             {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
-                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="icon icon-mail"></i>
-                  <span class="label">Email</span>
-                </a>
+                <script type='text/javascript'>var a = new Array('gmail','com', '.', 'bertholin', 'florian', '@');
+                    document.write('<a href="mailto:' + a[4]+a[2]+a[3]+a[5]+a[0]+a[2]+a[1] + '" title="Email me"><i class="icon icon-mail"></i><span class="label">Email</span></a>');
+                </script>
               </li>
             {% endif %}
 
@@ -84,7 +83,7 @@
                 <span class="label">RSS</span>
               </a>
             </li>
-          
+
             </ul>
           </nav>
 
