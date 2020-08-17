@@ -7,7 +7,7 @@ tags: [blog]
 
 I'm Florian, 28yo, passionate about software engineering and living in Geneva, Switzerland, from where I can enjoy a beautiful lake :-)
 
-![Geneva]({{ site.baseurl }}images/posts/geneva-fountain.jpg)
+![Geneva]({{ site.base_url }}images/posts/geneva-fountain.jpg)
 
 Before that, I graduated from a French engineering university in 2012, Epitech.
 
