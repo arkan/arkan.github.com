@@ -29,6 +29,10 @@ permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
+favicon:
+  source: /images/favicon.jpg
+  path: /images/favicons/
+
 kramdown:
   # use Github Flavored Markdown
   input: GFM
